@@ -14,6 +14,6 @@ export class SeedService {
   populateDB() {
     this.carService.fillCarWithSeed(CARS_SEED);
     this.brandService.fillBrandsWithSeed(BRAND_SEED);
-    return `This action returns all seed`;
+    return `This action excutes mock data`;
   }
 }
