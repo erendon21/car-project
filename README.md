@@ -44,6 +44,13 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
+## Populate DB with Mock Data
+To populate with mock data use seed
+
+```
+http://localhost:3000/seed
+```
+
 ## Run tests
 
 ```bash
